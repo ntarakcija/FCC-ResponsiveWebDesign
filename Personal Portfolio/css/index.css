@@ -1,0 +1,184 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #292929;
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #292929;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#main {
+    text-align: center;
+    background-color: ghostwhite;
+    box-sizing: border-box;
+}
+
+#welcome-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color: #292929;
+    color: #EBEBEB;
+    box-sizing: border-box;
+}
+
+#welcome-section div {
+    text-align: center;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+#projects img {
+    width: 100%;
+}
+
+.project {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #292929;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.project-image {
+    background-image: url(../images/survay-form.png);
+    background-size: cover;
+    flex: 4;
+}
+
+#project-image-2 {
+    background-image: url(../images/product-landing-page.png);
+}
+
+#project-image-3 {
+    background-image: url(../images/tribute-page.png);
+}
+
+#project-image-4 {
+    background-image: url(../images/technical-documentation.png);
+}
+
+.project-title {
+    border-top: 2px solid #292929;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #292929;
+}
+
+.button, .button:visited {
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: 2px solid #292929;
+    background: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px;
+    text-decoration: none;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+    padding-top: 10px;
+    color: #292929;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #EBEBEB;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #292929;
+    color: #EBEBEB;
+    margin-top: 50px;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+#contact div {
+    margin: 15px;
+}
+
+#socials {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.social {
+    width: 150px;
+    height: 40px;
+    border: 2px solid #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anchor {
+    position: absolute;
+    margin-top: -100px;
+}
+
+@media(max-width: 600px) {
+    nav {
+        justify-content: center;
+    }
+
+    nav ul li {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
