@@ -4,7 +4,7 @@
 Here are 5 responsive web design projects as a part of FreeCodeCamp certification.
 
 This includes:
-- Tribute Page->->
+- Tribute Page<br>
   A simple tribute page with a picture and a couple of paragraphs about the person's life.
 - Survay Form
   A simple job application form with almost all form items used.
