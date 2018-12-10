@@ -6,11 +6,11 @@ Here are 5 responsive web design projects as a part of FreeCodeCamp certificatio
 This includes:
 - Tribute Page<br>
   A simple tribute page with a picture and a couple of paragraphs about the person's life.
-- Survay Form
+- Survay Form<br>
   A simple job application form with almost all form items used.
-- Product Landing Page
+- Product Landing Page<br>
   A simple landing page with navigation bar, product features and plans.
-- Technical Documentation Page
+- Technical Documentation Page<br>
   A simple programming language documentation with scrollable sidebar on the left and content page on the right.
-- Personal Portfolio
+- Personal Portfolio<br>
   A simple web developer portfolio with thumbnails which link to projects on Code Pen.
